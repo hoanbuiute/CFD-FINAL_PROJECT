@@ -3,7 +3,7 @@ import React from "react";
 import ProductToolbox from "./ProductToolbox ";
 
 import Pagination from "./Pagination";
-import ProductFilter from "./productFilter";
+import ProductFilter from "./ProductFilter";
 import Breadcrumb from "../../components/Breadcrumb";
 import ProductList from "./productList";
 import PATHS from "../../constants/paths";
