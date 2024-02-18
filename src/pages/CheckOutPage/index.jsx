@@ -5,7 +5,7 @@ import PATHS from "../../constants/paths";
 
 import useCheckOutPage from "../../hooks/useCheckOutPage";
 import CheckoutDiscount from "./CheckoutDiscount";
-import CheckoutForm from "./CheckOutForm";
+import CheckoutForm from "./CheckoutForm";
 
 const CheckOutPage = () => {
   const { checkOutDiscountProps, checkoutFormProps } = useCheckOutPage();
