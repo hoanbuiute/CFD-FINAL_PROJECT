@@ -4,8 +4,9 @@ import ProductToolbox from "./ProductToolbox ";
 
 import Pagination from "./Pagination";
 import ProductFilter from "./ProductFilter";
+import ProductList from "./ProductList";
 import Breadcrumb from "../../components/Breadcrumb";
-import ProductList from "./productList";
+
 import PATHS from "../../constants/paths";
 import { Link } from "react-router-dom";
 import useProductPage from "../../hooks/useProductPage";
