@@ -9,7 +9,7 @@ const MainContext = createContext({});
 const MainContextProvider = ({ children }) => {
   const [isShowProfile, setIsShowProfile] = useState(false)
     const [isShowNavbar,setIsShowNavbar] = useState(false);
-    const  {pathname} = useLocation();
+    const  {pathname,search} = useLocation();
 
     useEffect(() => {
       const scrollTop = (e) => {
@@ -22,7 +22,7 @@ const MainContextProvider = ({ children }) => {
           );
         };
         handleCloseNavbar();
-    }, [pathname])
+    }, [pathname,search])
 ///Cờ với biến ishow
     const handleShowNavbar = (e) => {
       e?.preventDefault();
